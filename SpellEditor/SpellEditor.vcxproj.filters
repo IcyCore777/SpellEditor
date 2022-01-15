@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы исходного кода\ZenGin">
+      <UniqueIdentifier>{dd7f30f0-a9ec-4c17-a587-20206a2c82f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\SpellEditor">
+      <UniqueIdentifier>{ec5858d5-0855-41de-a392-e7e8afbd74ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\SpellEditor">
+      <UniqueIdentifier>{d9a17f2a-9e6f-4e18-b1ae-75ba1bbb7df7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\MFC">
+      <UniqueIdentifier>{901980d7-f45c-476e-99e1-81d651a58d6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\MFC">
+      <UniqueIdentifier>{d75f75ce-c198-41e7-8996-356bef144c66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Spacer">
+      <UniqueIdentifier>{6672aa06-a9c6-485f-ad67-22b69f51dc6c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ZenGin\zGothicAPI.h">
+      <Filter>Файлы исходного кода\ZenGin</Filter>
+    </ClInclude>
+    <ClInclude Include="UnionAfx.h">
+      <Filter>Файлы исходного кода\ZenGin</Filter>
+    </ClInclude>
+    <ClInclude Include="Control.h">
+      <Filter>Заголовочные файлы\SpellEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="EmKeyProps.h">
+      <Filter>Заголовочные файлы\SpellEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="PfxProps.h">
+      <Filter>Заголовочные файлы\SpellEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="VFxBase.h">
+      <Filter>Заголовочные файлы\SpellEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellEditor.h">
+      <Filter>Заголовочные файлы\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Заголовочные файлы\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Заголовочные файлы\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellEditorDoc.h">
+      <Filter>Заголовочные файлы\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellEditorView.h">
+      <Filter>Заголовочные файлы\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Заголовочные файлы\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Заголовочные файлы\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="zWin32.h">
+      <Filter>Файлы исходного кода\ZenGin</Filter>
+    </ClInclude>
+    <ClInclude Include="zWE_Controller.h">
+      <Filter>Файлы исходного кода\Spacer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ZenGin\Gothic_II_Addon\classDef_Ver3.cpp">
+      <Filter>Файлы исходного кода\ZenGin</Filter>
+    </ClCompile>
+    <ClCompile Include="ZenGin\Gothic_II_Addon\staticDef_Ver3.cpp">
+      <Filter>Файлы исходного кода\ZenGin</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorMain.cpp">
+      <Filter>Файлы исходного кода\SpellEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Control.cpp">
+      <Filter>Файлы исходного кода\SpellEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="EmKeyProps.cpp">
+      <Filter>Файлы исходного кода\SpellEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="PfxProps.cpp">
+      <Filter>Файлы исходного кода\SpellEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="VFxBase.cpp">
+      <Filter>Файлы исходного кода\SpellEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Файлы исходного кода\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellEditor.cpp">
+      <Filter>Файлы исходного кода\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellEditorDoc.cpp">
+      <Filter>Файлы исходного кода\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellEditorView.cpp">
+      <Filter>Файлы исходного кода\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Файлы исходного кода\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers.cpp">
+      <Filter>Файлы исходного кода\SpellEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Fixes.cpp">
+      <Filter>Файлы исходного кода\ZenGin</Filter>
+    </ClCompile>
+    <ClCompile Include="zWE_Ctrl.cpp">
+      <Filter>Файлы исходного кода\Spacer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SpellEditor.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\SpellEditor.rc2">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="res\ribbon1.mfcribbon-ms">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\SpellEditorDoc.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="res\SpellEditor.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
